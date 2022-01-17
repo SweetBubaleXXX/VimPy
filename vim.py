@@ -19,14 +19,6 @@ def create_dot_vim_dir():
         print("~/.vim created")
 
 
-def install_vimplug():
-    if ISWINDOWS:
-        cmd = "iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |` ni $HOME/vimfiles/autoload/plug.vim -Force"
-    else:
-        cmd = "curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
-    system(cmd)
-
-
 def copy_vimrc():
     try:
         copyfile(fr"{FILEPATH}/vimrc", fr"{HOME_DIR}/{VIMRC_NAME}")
@@ -37,5 +29,4 @@ def copy_vimrc():
 
 
 create_dot_vim_dir()
-install_vimplug()
 copy_vimrc()
