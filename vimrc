@@ -20,3 +20,5 @@ set backupdir=~/.vim/backup//
 set directory=~/.vim/swp//
 
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+
+set visualbell
