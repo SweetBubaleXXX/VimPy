@@ -23,6 +23,8 @@ set showmode
 
 nnoremap <F3> :set number!<CR>
 
+inoremap <C-@> <C-x><C-p>
+
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
