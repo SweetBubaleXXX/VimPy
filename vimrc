@@ -21,7 +21,9 @@ nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
 
-nnoremap <F3> :set number!<CR>
+nnoremap <F3> :set invhlsearch<CR>
+
+nnoremap <F4> :set number!<CR>
 
 inoremap <C-@> <C-x><C-p>
 
