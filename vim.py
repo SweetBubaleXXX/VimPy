@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from os import makedirs, path
 from platform import system as get_OS
 from shutil import copyfile
